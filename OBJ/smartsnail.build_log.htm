@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: rock rock, rock, LIC=HF8LQ-NYV9S-RC4JZ-JRVBG-K8DHE-X0FHL
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.21a
+Toolchain Path:  d:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DARMCM1.DLL V1.14.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TARMCM1.DLL V1.10.0.0
+ 
+<h2>Project:</h2>
+C:\Users\911SE\Desktop\gizWits\smart_mcu_stm32f030c8t6源码 - 修改\USER\smartsnail.uvprojx
+Project File Date:  07/24/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'd:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'smartsnail'
+compiling hal_motor.c...
+..\driver\hal_motor.c(64): warning:  #177-D: variable "ccr1Val" was declared but never referenced
+      uint16_t ccr1Val = 500;
+..\driver\hal_motor.c(65): warning:  #177-D: variable "ccr2Val" was declared but never referenced
+      uint16_t ccr2Val = 500;
+..\driver\hal_motor.c(157): warning:  #223-D: function "abs" declared implicitly
+  						motorControl((abs(status))*10, 0);
+..\driver\hal_motor.c(162): warning:  #223-D: function "abs" declared implicitly
+  						motorControl(0, (abs(status))*10);
+..\driver\hal_motor.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=18196 RO-data=292 RW-data=88 ZI-data=6088  
+FromELF: creating hex file...
+"..\OBJ\smartsnail.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\911SE\Desktop\gizWits\smart_mcu_stm32f030c8t6源码 - 修改\USER\RTE
+  d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
